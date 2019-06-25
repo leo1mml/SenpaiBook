@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0BC60C22C2572900314DB7 /* AnimeDetailOverlayText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC60B22C2572900314DB7 /* AnimeDetailOverlayText.swift */; };
+		8A0BC61022C258EA00314DB7 /* SenpaiHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC60F22C258EA00314DB7 /* SenpaiHeaderView.swift */; };
+		8A0BC61222C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */; };
 		8A40E54D22C1CE6700456AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */; };
 		8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */; };
 		8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E55022C1CE6700456AD1 /* ContentView.swift */; };
@@ -19,6 +22,8 @@
 		8A40E58122C1CEE300456AD1 /* SenpaiFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */; };
 		8A40E58422C1CF0500456AD1 /* Sintony-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */; };
 		8A40E58522C1CF0500456AD1 /* Sintony-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */; };
+		8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58722C2535500456AD1 /* AnimeDetailView.swift */; };
+		8A40E58A22C2568500456AD1 /* AnimeDetailBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A0BC60B22C2572900314DB7 /* AnimeDetailOverlayText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailOverlayText.swift; sourceTree = "<group>"; };
+		8A0BC60F22C258EA00314DB7 /* SenpaiHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiHeaderView.swift; sourceTree = "<group>"; };
+		8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailEpisodeGuideView.swift; sourceTree = "<group>"; };
 		8A40E54922C1CE6700456AD1 /* SenpaiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenpaiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +65,8 @@
 		8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiFont.swift; sourceTree = "<group>"; };
 		8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sintony-Regular.ttf"; sourceTree = "<group>"; };
 		8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sintony-Bold.ttf"; sourceTree = "<group>"; };
+		8A40E58722C2535500456AD1 /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
+		8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailBannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A0BC60D22C2574500314DB7 /* AnimeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E58722C2535500456AD1 /* AnimeDetailView.swift */,
+				8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */,
+				8A0BC60B22C2572900314DB7 /* AnimeDetailOverlayText.swift */,
+				8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */,
+			);
+			path = AnimeDetail;
+			sourceTree = "<group>";
+		};
+		8A0BC60E22C258B900314DB7 /* FixedViews */ = {
+			isa = PBXGroup;
+			children = (
+				8A0BC60F22C258EA00314DB7 /* SenpaiHeaderView.swift */,
+			);
+			path = FixedViews;
+			sourceTree = "<group>";
+		};
 		8A40E54022C1CE6700456AD1 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +136,8 @@
 		8A40E54B22C1CE6700456AD1 /* SenpaiBook */ = {
 			isa = PBXGroup;
 			children = (
+				8A0BC60E22C258B900314DB7 /* FixedViews */,
+				8A40E58622C252E900456AD1 /* Scenes */,
 				8A40E57F22C1CECC00456AD1 /* Fonts */,
 				8A40E57C22C1CE9C00456AD1 /* Colors */,
 				8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */,
@@ -162,6 +193,14 @@
 				8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8A40E58622C252E900456AD1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8A0BC60D22C2574500314DB7 /* AnimeDetail */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +338,13 @@
 			files = (
 				8A40E54D22C1CE6700456AD1 /* AppDelegate.swift in Sources */,
 				8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */,
+				8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */,
+				8A0BC61022C258EA00314DB7 /* SenpaiHeaderView.swift in Sources */,
+				8A0BC60C22C2572900314DB7 /* AnimeDetailOverlayText.swift in Sources */,
+				8A0BC61222C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift in Sources */,
 				8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */,
 				8A40E57E22C1CEAD00456AD1 /* SenpaiColor.swift in Sources */,
+				8A40E58A22C2568500456AD1 /* AnimeDetailBannerView.swift in Sources */,
 				8A40E58122C1CEE300456AD1 /* SenpaiFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
