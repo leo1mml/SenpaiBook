@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A40E54D22C1CE6700456AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */; };
+		8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */; };
+		8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E55022C1CE6700456AD1 /* ContentView.swift */; };
+		8A40E55322C1CE6900456AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E55222C1CE6900456AD1 /* Assets.xcassets */; };
+		8A40E55622C1CE6900456AD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E55522C1CE6900456AD1 /* Preview Assets.xcassets */; };
+		8A40E55922C1CE6900456AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E55722C1CE6900456AD1 /* LaunchScreen.storyboard */; };
+		8A40E56422C1CE6900456AD1 /* SenpaiBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E56322C1CE6900456AD1 /* SenpaiBookTests.swift */; };
+		8A40E56F22C1CE6900456AD1 /* SenpaiBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E56E22C1CE6900456AD1 /* SenpaiBookUITests.swift */; };
+		8A40E57E22C1CEAD00456AD1 /* SenpaiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */; };
+		8A40E58122C1CEE300456AD1 /* SenpaiFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */; };
+		8A40E58422C1CF0500456AD1 /* Sintony-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */; };
+		8A40E58522C1CF0500456AD1 /* Sintony-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A40E56022C1CE6900456AD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A40E54122C1CE6700456AD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A40E54822C1CE6700456AD1;
+			remoteInfo = SenpaiBook;
+		};
+		8A40E56B22C1CE6900456AD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A40E54122C1CE6700456AD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A40E54822C1CE6700456AD1;
+			remoteInfo = SenpaiBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A40E54922C1CE6700456AD1 /* SenpaiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenpaiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A40E55022C1CE6700456AD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A40E55222C1CE6900456AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A40E55522C1CE6900456AD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A40E55822C1CE6900456AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A40E55A22C1CE6900456AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A40E55F22C1CE6900456AD1 /* SenpaiBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenpaiBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A40E56322C1CE6900456AD1 /* SenpaiBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiBookTests.swift; sourceTree = "<group>"; };
+		8A40E56522C1CE6900456AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A40E56A22C1CE6900456AD1 /* SenpaiBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenpaiBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A40E56E22C1CE6900456AD1 /* SenpaiBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiBookUITests.swift; sourceTree = "<group>"; };
+		8A40E57022C1CE6900456AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiColor.swift; sourceTree = "<group>"; };
+		8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiFont.swift; sourceTree = "<group>"; };
+		8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sintony-Regular.ttf"; sourceTree = "<group>"; };
+		8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sintony-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A40E54622C1CE6700456AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A40E55C22C1CE6900456AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A40E56722C1CE6900456AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A40E54022C1CE6700456AD1 = {
+			isa = PBXGroup;
+			children = (
+				8A40E54B22C1CE6700456AD1 /* SenpaiBook */,
+				8A40E56222C1CE6900456AD1 /* SenpaiBookTests */,
+				8A40E56D22C1CE6900456AD1 /* SenpaiBookUITests */,
+				8A40E54A22C1CE6700456AD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A40E54A22C1CE6700456AD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E54922C1CE6700456AD1 /* SenpaiBook.app */,
+				8A40E55F22C1CE6900456AD1 /* SenpaiBookTests.xctest */,
+				8A40E56A22C1CE6900456AD1 /* SenpaiBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A40E54B22C1CE6700456AD1 /* SenpaiBook */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E57F22C1CECC00456AD1 /* Fonts */,
+				8A40E57C22C1CE9C00456AD1 /* Colors */,
+				8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */,
+				8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */,
+				8A40E55022C1CE6700456AD1 /* ContentView.swift */,
+				8A40E55222C1CE6900456AD1 /* Assets.xcassets */,
+				8A40E55722C1CE6900456AD1 /* LaunchScreen.storyboard */,
+				8A40E55A22C1CE6900456AD1 /* Info.plist */,
+				8A40E55422C1CE6900456AD1 /* Preview Content */,
+			);
+			path = SenpaiBook;
+			sourceTree = "<group>";
+		};
+		8A40E55422C1CE6900456AD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E55522C1CE6900456AD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A40E56222C1CE6900456AD1 /* SenpaiBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E56322C1CE6900456AD1 /* SenpaiBookTests.swift */,
+				8A40E56522C1CE6900456AD1 /* Info.plist */,
+			);
+			path = SenpaiBookTests;
+			sourceTree = "<group>";
+		};
+		8A40E56D22C1CE6900456AD1 /* SenpaiBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E56E22C1CE6900456AD1 /* SenpaiBookUITests.swift */,
+				8A40E57022C1CE6900456AD1 /* Info.plist */,
+			);
+			path = SenpaiBookUITests;
+			sourceTree = "<group>";
+		};
+		8A40E57C22C1CE9C00456AD1 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		8A40E57F22C1CECC00456AD1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */,
+				8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */,
+				8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A40E54822C1CE6700456AD1 /* SenpaiBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A40E57322C1CE6900456AD1 /* Build configuration list for PBXNativeTarget "SenpaiBook" */;
+			buildPhases = (
+				8A40E54522C1CE6700456AD1 /* Sources */,
+				8A40E54622C1CE6700456AD1 /* Frameworks */,
+				8A40E54722C1CE6700456AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenpaiBook;
+			productName = SenpaiBook;
+			productReference = 8A40E54922C1CE6700456AD1 /* SenpaiBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A40E55E22C1CE6900456AD1 /* SenpaiBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A40E57622C1CE6900456AD1 /* Build configuration list for PBXNativeTarget "SenpaiBookTests" */;
+			buildPhases = (
+				8A40E55B22C1CE6900456AD1 /* Sources */,
+				8A40E55C22C1CE6900456AD1 /* Frameworks */,
+				8A40E55D22C1CE6900456AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A40E56122C1CE6900456AD1 /* PBXTargetDependency */,
+			);
+			name = SenpaiBookTests;
+			productName = SenpaiBookTests;
+			productReference = 8A40E55F22C1CE6900456AD1 /* SenpaiBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A40E56922C1CE6900456AD1 /* SenpaiBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A40E57922C1CE6900456AD1 /* Build configuration list for PBXNativeTarget "SenpaiBookUITests" */;
+			buildPhases = (
+				8A40E56622C1CE6900456AD1 /* Sources */,
+				8A40E56722C1CE6900456AD1 /* Frameworks */,
+				8A40E56822C1CE6900456AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A40E56C22C1CE6900456AD1 /* PBXTargetDependency */,
+			);
+			name = SenpaiBookUITests;
+			productName = SenpaiBookUITests;
+			productReference = 8A40E56A22C1CE6900456AD1 /* SenpaiBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A40E54122C1CE6700456AD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Leonel Menezes";
+				TargetAttributes = {
+					8A40E54822C1CE6700456AD1 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					8A40E55E22C1CE6900456AD1 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 8A40E54822C1CE6700456AD1;
+					};
+					8A40E56922C1CE6900456AD1 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 8A40E54822C1CE6700456AD1;
+					};
+				};
+			};
+			buildConfigurationList = 8A40E54422C1CE6700456AD1 /* Build configuration list for PBXProject "SenpaiBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A40E54022C1CE6700456AD1;
+			productRefGroup = 8A40E54A22C1CE6700456AD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A40E54822C1CE6700456AD1 /* SenpaiBook */,
+				8A40E55E22C1CE6900456AD1 /* SenpaiBookTests */,
+				8A40E56922C1CE6900456AD1 /* SenpaiBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A40E54722C1CE6700456AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A40E55922C1CE6900456AD1 /* LaunchScreen.storyboard in Resources */,
+				8A40E55622C1CE6900456AD1 /* Preview Assets.xcassets in Resources */,
+				8A40E58422C1CF0500456AD1 /* Sintony-Regular.ttf in Resources */,
+				8A40E55322C1CE6900456AD1 /* Assets.xcassets in Resources */,
+				8A40E58522C1CF0500456AD1 /* Sintony-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A40E55D22C1CE6900456AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A40E56822C1CE6900456AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A40E54522C1CE6700456AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A40E54D22C1CE6700456AD1 /* AppDelegate.swift in Sources */,
+				8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */,
+				8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */,
+				8A40E57E22C1CEAD00456AD1 /* SenpaiColor.swift in Sources */,
+				8A40E58122C1CEE300456AD1 /* SenpaiFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A40E55B22C1CE6900456AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A40E56422C1CE6900456AD1 /* SenpaiBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A40E56622C1CE6900456AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A40E56F22C1CE6900456AD1 /* SenpaiBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A40E56122C1CE6900456AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A40E54822C1CE6700456AD1 /* SenpaiBook */;
+			targetProxy = 8A40E56022C1CE6900456AD1 /* PBXContainerItemProxy */;
+		};
+		8A40E56C22C1CE6900456AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A40E54822C1CE6700456AD1 /* SenpaiBook */;
+			targetProxy = 8A40E56B22C1CE6900456AD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A40E55722C1CE6900456AD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A40E55822C1CE6900456AD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A40E57122C1CE6900456AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A40E57222C1CE6900456AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A40E57422C1CE6900456AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "SenpaiBook/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SenpaiBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonellima.SenpaiBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A40E57522C1CE6900456AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "SenpaiBook/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SenpaiBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonellima.SenpaiBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A40E57722C1CE6900456AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SenpaiBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonellima.SenpaiBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SenpaiBook.app/SenpaiBook";
+			};
+			name = Debug;
+		};
+		8A40E57822C1CE6900456AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SenpaiBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonellima.SenpaiBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SenpaiBook.app/SenpaiBook";
+			};
+			name = Release;
+		};
+		8A40E57A22C1CE6900456AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SenpaiBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonellima.SenpaiBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SenpaiBook;
+			};
+			name = Debug;
+		};
+		8A40E57B22C1CE6900456AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SenpaiBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonellima.SenpaiBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SenpaiBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A40E54422C1CE6700456AD1 /* Build configuration list for PBXProject "SenpaiBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A40E57122C1CE6900456AD1 /* Debug */,
+				8A40E57222C1CE6900456AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A40E57322C1CE6900456AD1 /* Build configuration list for PBXNativeTarget "SenpaiBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A40E57422C1CE6900456AD1 /* Debug */,
+				8A40E57522C1CE6900456AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A40E57622C1CE6900456AD1 /* Build configuration list for PBXNativeTarget "SenpaiBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A40E57722C1CE6900456AD1 /* Debug */,
+				8A40E57822C1CE6900456AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A40E57922C1CE6900456AD1 /* Build configuration list for PBXNativeTarget "SenpaiBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A40E57A22C1CE6900456AD1 /* Debug */,
+				8A40E57B22C1CE6900456AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A40E54122C1CE6700456AD1 /* Project object */;
+}
