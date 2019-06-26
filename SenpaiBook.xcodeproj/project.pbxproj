@@ -31,8 +31,6 @@
 		8A40E56F22C1CE6900456AD1 /* SenpaiBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E56E22C1CE6900456AD1 /* SenpaiBookUITests.swift */; };
 		8A40E57E22C1CEAD00456AD1 /* SenpaiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */; };
 		8A40E58122C1CEE300456AD1 /* SenpaiFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */; };
-		8A40E58422C1CF0500456AD1 /* Sintony-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */; };
-		8A40E58522C1CF0500456AD1 /* Sintony-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */; };
 		8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58722C2535500456AD1 /* AnimeDetailView.swift */; };
 		8A40E58A22C2568500456AD1 /* AnimeDetailBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */; };
 /* End PBXBuildFile section */
@@ -85,8 +83,6 @@
 		8A40E57022C1CE6900456AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiColor.swift; sourceTree = "<group>"; };
 		8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiFont.swift; sourceTree = "<group>"; };
-		8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sintony-Regular.ttf"; sourceTree = "<group>"; };
-		8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sintony-Bold.ttf"; sourceTree = "<group>"; };
 		8A40E58722C2535500456AD1 /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
 		8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailBannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,8 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				8A28E05B22C2EAF200068E1A /* Kanit */,
-				8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */,
-				8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */,
 				8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */,
 			);
 			path = Fonts;
@@ -354,11 +348,9 @@
 				8A28E06B22C2EB4400068E1A /* Kanit-Bold.ttf in Resources */,
 				8A40E55622C1CE6900456AD1 /* Preview Assets.xcassets in Resources */,
 				8A28E06D22C2EB4400068E1A /* Kanit-Medium.ttf in Resources */,
-				8A40E58422C1CF0500456AD1 /* Sintony-Regular.ttf in Resources */,
 				8A40E55322C1CE6900456AD1 /* Assets.xcassets in Resources */,
 				8A28E06722C2EB4400068E1A /* Kanit-Black.ttf in Resources */,
 				8A28E06622C2EB4400068E1A /* Kanit-Thin.ttf in Resources */,
-				8A40E58522C1CF0500456AD1 /* Sintony-Bold.ttf in Resources */,
 				8A28E06A22C2EB4400068E1A /* Kanit-Light.ttf in Resources */,
 				8A28E06C22C2EB4400068E1A /* Kanit-Regular.ttf in Resources */,
 				8A28E06522C2EB4400068E1A /* Kanit-SemiBold.ttf in Resources */,
