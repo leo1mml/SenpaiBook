@@ -9,8 +9,14 @@
 import SwiftUI
 
 enum SenpaiFontType: String {
-    case regular = "Sintony-Regular"
-    case bold = "Sintony-Bold"
+    case thin = "Kanit-Thin"
+    case extraLight = "Kanit-ExtraLight"
+    case light = "Kanit-Light"
+    case regular = "Kanit-Regular"
+    case medium = "Kanit-Medium"
+    case bold = "Kanit-Bold"
+    case extraBold = "Kanit-ExtraBold"
+    case black = "Kanit-Black"
 }
 
 class SenpaiFont {

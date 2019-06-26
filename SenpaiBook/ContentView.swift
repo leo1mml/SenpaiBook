@@ -12,10 +12,18 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             SenpaiColor.main.edgesIgnoringSafeArea(.all)
-            VStack {
+            VStack(spacing: 0) {
                 SenpaiHeaderView()
-                AnimeDetailView()
+                Color.white
+                    .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 1)
+                GeometryReader { geometry in
+                    ScrollView(showsVerticalIndicator: false) {
+                        AnimeDetailView()
+                            .frame(width: geometry.size.width)
+                    }
+                }
             }
+            
         }
     }
 }

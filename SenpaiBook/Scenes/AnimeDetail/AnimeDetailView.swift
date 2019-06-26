@@ -11,9 +11,6 @@ import SwiftUI
 struct AnimeDetailView: View {
     var body: some View {
         VStack(spacing: 0) {
-            Divider()
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 1)
-                .background(Color.white)
             AnimeDetailBannerView()
             AnimeDetailEpisodeGuideView()
             AnimeDetailDescriptionView()

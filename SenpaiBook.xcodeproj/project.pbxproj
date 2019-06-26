@@ -11,6 +11,15 @@
 		8A0BC61022C258EA00314DB7 /* SenpaiHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC60F22C258EA00314DB7 /* SenpaiHeaderView.swift */; };
 		8A0BC61222C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */; };
 		8A0BC61422C25D8F00314DB7 /* AnimeDetailDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC61322C25D8F00314DB7 /* AnimeDetailDescriptionView.swift */; };
+		8A28E06522C2EB4400068E1A /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05C22C2EB4400068E1A /* Kanit-SemiBold.ttf */; };
+		8A28E06622C2EB4400068E1A /* Kanit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05D22C2EB4400068E1A /* Kanit-Thin.ttf */; };
+		8A28E06722C2EB4400068E1A /* Kanit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05E22C2EB4400068E1A /* Kanit-Black.ttf */; };
+		8A28E06822C2EB4400068E1A /* Kanit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05F22C2EB4400068E1A /* Kanit-ExtraBold.ttf */; };
+		8A28E06922C2EB4400068E1A /* Kanit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E06022C2EB4400068E1A /* Kanit-ExtraLight.ttf */; };
+		8A28E06A22C2EB4400068E1A /* Kanit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E06122C2EB4400068E1A /* Kanit-Light.ttf */; };
+		8A28E06B22C2EB4400068E1A /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E06222C2EB4400068E1A /* Kanit-Bold.ttf */; };
+		8A28E06C22C2EB4400068E1A /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E06322C2EB4400068E1A /* Kanit-Regular.ttf */; };
+		8A28E06D22C2EB4400068E1A /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E06422C2EB4400068E1A /* Kanit-Medium.ttf */; };
 		8A40E54D22C1CE6700456AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */; };
 		8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */; };
 		8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E55022C1CE6700456AD1 /* ContentView.swift */; };
@@ -49,6 +58,15 @@
 		8A0BC60F22C258EA00314DB7 /* SenpaiHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiHeaderView.swift; sourceTree = "<group>"; };
 		8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailEpisodeGuideView.swift; sourceTree = "<group>"; };
 		8A0BC61322C25D8F00314DB7 /* AnimeDetailDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailDescriptionView.swift; sourceTree = "<group>"; };
+		8A28E05C22C2EB4400068E1A /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
+		8A28E05D22C2EB4400068E1A /* Kanit-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Thin.ttf"; sourceTree = "<group>"; };
+		8A28E05E22C2EB4400068E1A /* Kanit-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Black.ttf"; sourceTree = "<group>"; };
+		8A28E05F22C2EB4400068E1A /* Kanit-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8A28E06022C2EB4400068E1A /* Kanit-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-ExtraLight.ttf"; sourceTree = "<group>"; };
+		8A28E06122C2EB4400068E1A /* Kanit-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Light.ttf"; sourceTree = "<group>"; };
+		8A28E06222C2EB4400068E1A /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		8A28E06322C2EB4400068E1A /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		8A28E06422C2EB4400068E1A /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
 		8A40E54922C1CE6700456AD1 /* SenpaiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenpaiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +132,22 @@
 				8A0BC60F22C258EA00314DB7 /* SenpaiHeaderView.swift */,
 			);
 			path = FixedViews;
+			sourceTree = "<group>";
+		};
+		8A28E05B22C2EAF200068E1A /* Kanit */ = {
+			isa = PBXGroup;
+			children = (
+				8A28E05E22C2EB4400068E1A /* Kanit-Black.ttf */,
+				8A28E06222C2EB4400068E1A /* Kanit-Bold.ttf */,
+				8A28E05F22C2EB4400068E1A /* Kanit-ExtraBold.ttf */,
+				8A28E06022C2EB4400068E1A /* Kanit-ExtraLight.ttf */,
+				8A28E06122C2EB4400068E1A /* Kanit-Light.ttf */,
+				8A28E06422C2EB4400068E1A /* Kanit-Medium.ttf */,
+				8A28E06322C2EB4400068E1A /* Kanit-Regular.ttf */,
+				8A28E05C22C2EB4400068E1A /* Kanit-SemiBold.ttf */,
+				8A28E05D22C2EB4400068E1A /* Kanit-Thin.ttf */,
+			);
+			path = Kanit;
 			sourceTree = "<group>";
 		};
 		8A40E54022C1CE6700456AD1 = {
@@ -191,6 +225,7 @@
 		8A40E57F22C1CECC00456AD1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				8A28E05B22C2EAF200068E1A /* Kanit */,
 				8A40E58322C1CF0400456AD1 /* Sintony-Bold.ttf */,
 				8A40E58222C1CF0400456AD1 /* Sintony-Regular.ttf */,
 				8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */,
@@ -310,11 +345,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A28E06922C2EB4400068E1A /* Kanit-ExtraLight.ttf in Resources */,
+				8A28E06822C2EB4400068E1A /* Kanit-ExtraBold.ttf in Resources */,
 				8A40E55922C1CE6900456AD1 /* LaunchScreen.storyboard in Resources */,
+				8A28E06B22C2EB4400068E1A /* Kanit-Bold.ttf in Resources */,
 				8A40E55622C1CE6900456AD1 /* Preview Assets.xcassets in Resources */,
+				8A28E06D22C2EB4400068E1A /* Kanit-Medium.ttf in Resources */,
 				8A40E58422C1CF0500456AD1 /* Sintony-Regular.ttf in Resources */,
 				8A40E55322C1CE6900456AD1 /* Assets.xcassets in Resources */,
+				8A28E06722C2EB4400068E1A /* Kanit-Black.ttf in Resources */,
+				8A28E06622C2EB4400068E1A /* Kanit-Thin.ttf in Resources */,
 				8A40E58522C1CF0500456AD1 /* Sintony-Bold.ttf in Resources */,
+				8A28E06A22C2EB4400068E1A /* Kanit-Light.ttf in Resources */,
+				8A28E06C22C2EB4400068E1A /* Kanit-Regular.ttf in Resources */,
+				8A28E06522C2EB4400068E1A /* Kanit-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
