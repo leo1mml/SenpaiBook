@@ -15,6 +15,7 @@ class SenpaiColorScpec: QuickSpec {
     override func spec() {
         it("has to return a color") {
             expect(SenpaiColor.main).toNot(beNil())
+            expect(SenpaiColor.highlightText).toNot(beNil())
         }
     }
 }
