@@ -13,19 +13,16 @@ struct AnimeDetailRelatedView: View {
         VStack(alignment: HorizontalAlignment.leading) {
             Text("RELATED")
                 .font(SenpaiFont.of(type: .bold, size: 18))
-            .padding()
-            GeometryReader { geometry in
-                ScrollView(showsHorizontalIndicator: false) {
-                    HStack {
-                        ForEach((1...10).reversed()) {
-                            AnimeWidget(number: $0)
-                        }
-
+                .padding()
+            
+            ScrollView(showsHorizontalIndicator: false) {
+                HStack {
+                    ForEach((1...10).reversed()) {
+                        AnimeWidget(number: $0)
                     }
-                        .frame(height: geometry.size.height)
                 }
             }
-                .frame(minWidth: 0, maxWidth: .infinity, idealHeight: 400)
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 350)
         }
             .foregroundColor(.white)
             .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
@@ -41,6 +38,9 @@ struct AnimeWidget: View {
                 .aspectRatio(contentMode: ContentMode.fill)
                 .frame(width: 120, height: 180)
                 .clipped()
+            Text("Dragon Ball")
         }
     }
 }
+
+
