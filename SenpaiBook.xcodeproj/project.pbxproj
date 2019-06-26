@@ -31,7 +31,6 @@
 		8A40E55622C1CE6900456AD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E55522C1CE6900456AD1 /* Preview Assets.xcassets */; };
 		8A40E55922C1CE6900456AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E55722C1CE6900456AD1 /* LaunchScreen.storyboard */; };
 		8A40E56422C1CE6900456AD1 /* SenpaiBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E56322C1CE6900456AD1 /* SenpaiBookTests.swift */; };
-		8A40E56F22C1CE6900456AD1 /* SenpaiBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E56E22C1CE6900456AD1 /* SenpaiBookUITests.swift */; };
 		8A40E57E22C1CEAD00456AD1 /* SenpaiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */; };
 		8A40E58122C1CEE300456AD1 /* SenpaiFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */; };
 		8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58722C2535500456AD1 /* AnimeDetailView.swift */; };
@@ -40,13 +39,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		8A40E56022C1CE6900456AD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A40E54122C1CE6700456AD1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A40E54822C1CE6700456AD1;
-			remoteInfo = SenpaiBook;
-		};
-		8A40E56B22C1CE6900456AD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A40E54122C1CE6700456AD1 /* Project object */;
 			proxyType = 1;
@@ -82,9 +74,6 @@
 		8A40E55F22C1CE6900456AD1 /* SenpaiBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenpaiBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A40E56322C1CE6900456AD1 /* SenpaiBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiBookTests.swift; sourceTree = "<group>"; };
 		8A40E56522C1CE6900456AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A40E56A22C1CE6900456AD1 /* SenpaiBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenpaiBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A40E56E22C1CE6900456AD1 /* SenpaiBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiBookUITests.swift; sourceTree = "<group>"; };
-		8A40E57022C1CE6900456AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiColor.swift; sourceTree = "<group>"; };
 		8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiFont.swift; sourceTree = "<group>"; };
 		8A40E58722C2535500456AD1 /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
@@ -105,13 +94,6 @@
 			files = (
 				8A28E07222C30C9300068E1A /* Quick in Frameworks */,
 				8A28E07822C30DEF00068E1A /* Nimble in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A40E56722C1CE6900456AD1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +150,6 @@
 			children = (
 				8A40E54B22C1CE6700456AD1 /* SenpaiBook */,
 				8A40E56222C1CE6900456AD1 /* SenpaiBookTests */,
-				8A40E56D22C1CE6900456AD1 /* SenpaiBookUITests */,
 				8A40E54A22C1CE6700456AD1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,7 +159,6 @@
 			children = (
 				8A40E54922C1CE6700456AD1 /* SenpaiBook.app */,
 				8A40E55F22C1CE6900456AD1 /* SenpaiBookTests.xctest */,
-				8A40E56A22C1CE6900456AD1 /* SenpaiBookUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,15 +197,6 @@
 				8A40E56522C1CE6900456AD1 /* Info.plist */,
 			);
 			path = SenpaiBookTests;
-			sourceTree = "<group>";
-		};
-		8A40E56D22C1CE6900456AD1 /* SenpaiBookUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8A40E56E22C1CE6900456AD1 /* SenpaiBookUITests.swift */,
-				8A40E57022C1CE6900456AD1 /* Info.plist */,
-			);
-			path = SenpaiBookUITests;
 			sourceTree = "<group>";
 		};
 		8A40E57C22C1CE9C00456AD1 /* Colors */ = {
@@ -295,24 +266,6 @@
 			productReference = 8A40E55F22C1CE6900456AD1 /* SenpaiBookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8A40E56922C1CE6900456AD1 /* SenpaiBookUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A40E57922C1CE6900456AD1 /* Build configuration list for PBXNativeTarget "SenpaiBookUITests" */;
-			buildPhases = (
-				8A40E56622C1CE6900456AD1 /* Sources */,
-				8A40E56722C1CE6900456AD1 /* Frameworks */,
-				8A40E56822C1CE6900456AD1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A40E56C22C1CE6900456AD1 /* PBXTargetDependency */,
-			);
-			name = SenpaiBookUITests;
-			productName = SenpaiBookUITests;
-			productReference = 8A40E56A22C1CE6900456AD1 /* SenpaiBookUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,10 +280,6 @@
 						CreatedOnToolsVersion = 11.0;
 					};
 					8A40E55E22C1CE6900456AD1 = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 8A40E54822C1CE6700456AD1;
-					};
-					8A40E56922C1CE6900456AD1 = {
 						CreatedOnToolsVersion = 11.0;
 						TestTargetID = 8A40E54822C1CE6700456AD1;
 					};
@@ -355,7 +304,6 @@
 			targets = (
 				8A40E54822C1CE6700456AD1 /* SenpaiBook */,
 				8A40E55E22C1CE6900456AD1 /* SenpaiBookTests */,
-				8A40E56922C1CE6900456AD1 /* SenpaiBookUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -381,13 +329,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8A40E55D22C1CE6900456AD1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A40E56822C1CE6900456AD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -425,14 +366,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A40E56622C1CE6900456AD1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A40E56F22C1CE6900456AD1 /* SenpaiBookUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -440,11 +373,6 @@
 			isa = PBXTargetDependency;
 			target = 8A40E54822C1CE6700456AD1 /* SenpaiBook */;
 			targetProxy = 8A40E56022C1CE6900456AD1 /* PBXContainerItemProxy */;
-		};
-		8A40E56C22C1CE6900456AD1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A40E54822C1CE6700456AD1 /* SenpaiBook */;
-			targetProxy = 8A40E56B22C1CE6900456AD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -652,44 +580,6 @@
 			};
 			name = Release;
 		};
-		8A40E57A22C1CE6900456AD1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SenpaiBookUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leonellima.SenpaiBookUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SenpaiBook;
-			};
-			name = Debug;
-		};
-		8A40E57B22C1CE6900456AD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SenpaiBookUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leonellima.SenpaiBookUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SenpaiBook;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -716,15 +606,6 @@
 			buildConfigurations = (
 				8A40E57722C1CE6900456AD1 /* Debug */,
 				8A40E57822C1CE6900456AD1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A40E57922C1CE6900456AD1 /* Build configuration list for PBXNativeTarget "SenpaiBookUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A40E57A22C1CE6900456AD1 /* Debug */,
-				8A40E57B22C1CE6900456AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
