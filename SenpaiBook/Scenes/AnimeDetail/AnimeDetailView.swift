@@ -14,7 +14,8 @@ struct AnimeDetailView: View {
             AnimeDetailBannerView()
             AnimeDetailEpisodeGuideView()
             AnimeDetailDescriptionView()
-            Spacer()
+            AnimeDetailRelatedView()
+            Spacer().background(Color.red)
         }
     }
 }

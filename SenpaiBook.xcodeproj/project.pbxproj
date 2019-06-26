@@ -20,6 +20,7 @@
 		8A28E06B22C2EB4400068E1A /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E06222C2EB4400068E1A /* Kanit-Bold.ttf */; };
 		8A28E06C22C2EB4400068E1A /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E06322C2EB4400068E1A /* Kanit-Regular.ttf */; };
 		8A28E06D22C2EB4400068E1A /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E06422C2EB4400068E1A /* Kanit-Medium.ttf */; };
+		8A28E06F22C2F62D00068E1A /* AnimeDetailRelatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28E06E22C2F62D00068E1A /* AnimeDetailRelatedView.swift */; };
 		8A40E54D22C1CE6700456AD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */; };
 		8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */; };
 		8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E55022C1CE6700456AD1 /* ContentView.swift */; };
@@ -67,6 +68,7 @@
 		8A28E06222C2EB4400068E1A /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
 		8A28E06322C2EB4400068E1A /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
 		8A28E06422C2EB4400068E1A /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		8A28E06E22C2F62D00068E1A /* AnimeDetailRelatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailRelatedView.swift; sourceTree = "<group>"; };
 		8A40E54922C1CE6700456AD1 /* SenpaiBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenpaiBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				8A0BC60B22C2572900314DB7 /* AnimeDetailOverlayText.swift */,
 				8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */,
 				8A0BC61322C25D8F00314DB7 /* AnimeDetailDescriptionView.swift */,
+				8A28E06E22C2F62D00068E1A /* AnimeDetailRelatedView.swift */,
 			);
 			path = AnimeDetail;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */,
 				8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */,
 				8A0BC61022C258EA00314DB7 /* SenpaiHeaderView.swift in Sources */,
+				8A28E06F22C2F62D00068E1A /* AnimeDetailRelatedView.swift in Sources */,
 				8A0BC60C22C2572900314DB7 /* AnimeDetailOverlayText.swift in Sources */,
 				8A0BC61222C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift in Sources */,
 				8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */,
