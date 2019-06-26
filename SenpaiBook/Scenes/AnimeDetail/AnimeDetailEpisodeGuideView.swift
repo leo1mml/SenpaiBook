@@ -14,7 +14,7 @@ struct AnimeDetailEpisodeGuideView: View {
             Text("GUIA DE EPISÓDIOS")
             .font(SenpaiFont.of(type: .bold, size: 18))
             Spacer()
-            Text("5 EPISÓDIOS >")
+            Text("5 EPISÓDIOS \u{2192}")
             .font(SenpaiFont.of(type: .regular, size: 12))
         }
             .foregroundColor(.white)
