@@ -12,7 +12,7 @@ struct AnimeDetailRelatedView: View {
     var body: some View {
         VStack(alignment: HorizontalAlignment.leading) {
             Text("RELATED")
-                .font(SenpaiFont.of(type: .bold, size: 18))
+                .font(SenpaiFont.bold.of(size: 18))
                 .padding()
             
             ScrollView(showsHorizontalIndicator: false) {

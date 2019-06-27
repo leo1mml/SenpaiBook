@@ -9,13 +9,13 @@
 import SwiftUI
 
 struct AnimeDetailView: View {
+    
     var body: some View {
         VStack(spacing: 0) {
             AnimeDetailBannerView()
             AnimeDetailEpisodeGuideView()
             AnimeDetailDescriptionView()
             AnimeDetailRelatedView()
-            Spacer().background(Color.red)
         }
     }
 }

@@ -16,7 +16,7 @@ struct AnimeDetailDescriptionView: View {
                 Color.white
                     .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 1)
             }
-                .font(SenpaiFont.of(type: .regular, size: 12))
+                .font(SenpaiFont.regular.of(size: 12))
                 .foregroundColor(.white)
                 .padding(.leading)
             HStack(alignment: .top, spacing: 20) {
@@ -42,11 +42,11 @@ struct AnimeDetailDescription: View {
                 VStack {
                     HStack(alignment: .firstTextBaseline) {
                         Text("9.0")
-                            .font(SenpaiFont.of(type: .bold, size: 45))
+                            .font(SenpaiFont.bold.of(size: 45))
                         Text("/10.0")
                     }
                     Text("444444 Votações")
-                    .font(SenpaiFont.of(type: .bold, size: 12))
+                    .font(SenpaiFont.bold.of(size: 12))
                     .truncationMode(.tail)
                 }
                 
@@ -54,7 +54,7 @@ struct AnimeDetailDescription: View {
             Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
                 .lineLimit(nil)
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .leading)
-                .font(SenpaiFont.of(type: .light, size: 14))
+                .font(SenpaiFont.light.of(size: 14))
         }.foregroundColor(.white)
         .offset(y: -20)
     }

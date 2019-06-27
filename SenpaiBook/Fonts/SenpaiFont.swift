@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-enum SenpaiFontType: String {
+enum SenpaiFont: String {
     case thin = "Kanit-Thin"
     case extraLight = "Kanit-ExtraLight"
     case light = "Kanit-Light"
@@ -17,10 +17,8 @@ enum SenpaiFontType: String {
     case bold = "Kanit-Bold"
     case extraBold = "Kanit-ExtraBold"
     case black = "Kanit-Black"
-}
-
-class SenpaiFont {
-    static func of(type: SenpaiFontType, size: CGFloat) -> Font {
-        return Font.custom(type.rawValue, size: size)
+    
+    func of(size: CGFloat) -> Font {
+        return Font.custom(rawValue, size: size)
     }
 }

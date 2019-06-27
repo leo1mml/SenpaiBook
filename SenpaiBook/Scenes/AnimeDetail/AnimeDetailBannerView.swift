@@ -11,10 +11,10 @@ import SwiftUI
 struct AnimeDetailBannerView: View {
     var body: some View {
         ZStack(alignment: .bottomLeading) {
-            Image("demon-slayer")
+            Image("goku")
                 .resizable()
-                .aspectRatio(contentMode: ContentMode.fill)
-                .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 300)
+                .aspectRatio(contentMode: .fill)
+                .frame(height: 300)
                 .clipped()
             AnimeDetailOverlayText()
             }.foregroundColor(Color.white)

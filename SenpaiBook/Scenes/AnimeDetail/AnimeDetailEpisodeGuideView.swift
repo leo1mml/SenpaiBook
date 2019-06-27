@@ -12,10 +12,10 @@ struct AnimeDetailEpisodeGuideView: View {
     var body: some View {
         HStack {
             Text("GUIA DE EPISÓDIOS")
-            .font(SenpaiFont.of(type: .bold, size: 18))
+            .font(SenpaiFont.bold.of(size: 18))
             Spacer()
             Text("5 EPISÓDIOS \u{2192}")
-            .font(SenpaiFont.of(type: .regular, size: 12))
+            .font(SenpaiFont.regular.of(size: 12))
         }
             .foregroundColor(.white)
             .padding()
