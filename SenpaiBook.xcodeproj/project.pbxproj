@@ -11,6 +11,7 @@
 		8A0BC61022C258EA00314DB7 /* SenpaiHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC60F22C258EA00314DB7 /* SenpaiHeaderView.swift */; };
 		8A0BC61222C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */; };
 		8A0BC61422C25D8F00314DB7 /* AnimeDetailDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC61322C25D8F00314DB7 /* AnimeDetailDescriptionView.swift */; };
+		8A1EC55A22CC5F35007F9E3F /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1EC54722CC5AC3007F9E3F /* Apollo.framework */; };
 		8A28E06522C2EB4400068E1A /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05C22C2EB4400068E1A /* Kanit-SemiBold.ttf */; };
 		8A28E06622C2EB4400068E1A /* Kanit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05D22C2EB4400068E1A /* Kanit-Thin.ttf */; };
 		8A28E06722C2EB4400068E1A /* Kanit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05E22C2EB4400068E1A /* Kanit-Black.ttf */; };
@@ -149,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A1EC55A22CC5F35007F9E3F /* Apollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +202,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8A1EC55922CC5F35007F9E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A28E05B22C2EAF200068E1A /* Kanit */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +240,7 @@
 				8A40E54B22C1CE6700456AD1 /* SenpaiBook */,
 				8A40E56222C1CE6900456AD1 /* SenpaiBookTests */,
 				8A40E54A22C1CE6700456AD1 /* Products */,
+				8A1EC55922CC5F35007F9E3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

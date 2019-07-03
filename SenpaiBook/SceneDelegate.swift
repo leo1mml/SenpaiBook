@@ -10,8 +10,6 @@ import UIKit
 import SwiftUI
 import Apollo
 
-let apollo = ApolloClient(url: URL(string: "https://graphql.anilist.co")!)
-
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?

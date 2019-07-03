@@ -7,10 +7,15 @@
 //
 
 import UIKit
+import Apollo
+
+import Apollo
+
+let graphQLEndpoint = "https://graphql.anilist.co"
+let apollo = ApolloClient(url: URL(string: graphQLEndpoint)!)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
