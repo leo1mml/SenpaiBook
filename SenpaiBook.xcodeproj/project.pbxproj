@@ -39,6 +39,7 @@
 		8A40E58122C1CEE300456AD1 /* SenpaiFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */; };
 		8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58722C2535500456AD1 /* AnimeDetailView.swift */; };
 		8A40E58A22C2568500456AD1 /* AnimeDetailBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */; };
+		8FE745DB22CE6E13009BB9FD /* AnimeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE745DA22CE6E13009BB9FD /* AnimeDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +150,7 @@
 		8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiFont.swift; sourceTree = "<group>"; };
 		8A40E58722C2535500456AD1 /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
 		8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailBannerView.swift; sourceTree = "<group>"; };
+		8FE745DA22CE6E13009BB9FD /* AnimeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,12 +177,9 @@
 		8A0BC60D22C2574500314DB7 /* AnimeDetail */ = {
 			isa = PBXGroup;
 			children = (
+				8FE745D922CE5E18009BB9FD /* ViewModel */,
+				8FE745D122CE5A73009BB9FD /* SubViews */,
 				8A40E58722C2535500456AD1 /* AnimeDetailView.swift */,
-				8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */,
-				8A0BC60B22C2572900314DB7 /* AnimeDetailOverlayText.swift */,
-				8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */,
-				8A0BC61322C25D8F00314DB7 /* AnimeDetailDescriptionView.swift */,
-				8A28E06E22C2F62D00068E1A /* AnimeDetailRelatedView.swift */,
 			);
 			path = AnimeDetail;
 			sourceTree = "<group>";
@@ -329,6 +328,26 @@
 				8A0BC60D22C2574500314DB7 /* AnimeDetail */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8FE745D122CE5A73009BB9FD /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */,
+				8A0BC60B22C2572900314DB7 /* AnimeDetailOverlayText.swift */,
+				8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */,
+				8A0BC61322C25D8F00314DB7 /* AnimeDetailDescriptionView.swift */,
+				8A28E06E22C2F62D00068E1A /* AnimeDetailRelatedView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		8FE745D922CE5E18009BB9FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8FE745DA22CE6E13009BB9FD /* AnimeDetailViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -539,6 +558,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE745DB22CE6E13009BB9FD /* AnimeDetailViewModel.swift in Sources */,
 				8A40E54D22C1CE6700456AD1 /* AppDelegate.swift in Sources */,
 				8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */,
 				8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */,
