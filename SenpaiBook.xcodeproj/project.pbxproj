@@ -12,6 +12,9 @@
 		8A0BC61222C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */; };
 		8A0BC61422C25D8F00314DB7 /* AnimeDetailDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BC61322C25D8F00314DB7 /* AnimeDetailDescriptionView.swift */; };
 		8A1EC55A22CC5F35007F9E3F /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1EC54722CC5AC3007F9E3F /* Apollo.framework */; };
+		8A1EC57622CDB457007F9E3F /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A1EC57522CDB457007F9E3F /* schema.json */; };
+		8A1EC57822CDB49A007F9E3F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1EC57722CDB49A007F9E3F /* API.swift */; };
+		8A1EC57A22CDB4B7007F9E3F /* FetchAnimeDetail.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 8A1EC57922CDB4B7007F9E3F /* FetchAnimeDetail.graphql */; };
 		8A28E06522C2EB4400068E1A /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05C22C2EB4400068E1A /* Kanit-SemiBold.ttf */; };
 		8A28E06622C2EB4400068E1A /* Kanit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05D22C2EB4400068E1A /* Kanit-Thin.ttf */; };
 		8A28E06722C2EB4400068E1A /* Kanit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A28E05E22C2EB4400068E1A /* Kanit-Black.ttf */; };
@@ -117,6 +120,9 @@
 		8A0BC61122C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailEpisodeGuideView.swift; sourceTree = "<group>"; };
 		8A0BC61322C25D8F00314DB7 /* AnimeDetailDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailDescriptionView.swift; sourceTree = "<group>"; };
 		8A1EC53B22CC5AC3007F9E3F /* Apollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Apollo.xcodeproj; path = "apollo-ios/Apollo.xcodeproj"; sourceTree = "<group>"; };
+		8A1EC57522CDB457007F9E3F /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = schema.json; path = SenpaiBook/schema.json; sourceTree = SOURCE_ROOT; };
+		8A1EC57722CDB49A007F9E3F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = SenpaiBook/API.swift; sourceTree = SOURCE_ROOT; };
+		8A1EC57922CDB4B7007F9E3F /* FetchAnimeDetail.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = FetchAnimeDetail.graphql; sourceTree = "<group>"; };
 		8A28E05C22C2EB4400068E1A /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
 		8A28E05D22C2EB4400068E1A /* Kanit-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Thin.ttf"; sourceTree = "<group>"; };
 		8A28E05E22C2EB4400068E1A /* Kanit-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Black.ttf"; sourceTree = "<group>"; };
@@ -209,6 +215,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8A1EC56D22CDB43F007F9E3F /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				8A1EC57722CDB49A007F9E3F /* API.swift */,
+				8A1EC57522CDB457007F9E3F /* schema.json */,
+				8A1EC57922CDB4B7007F9E3F /* FetchAnimeDetail.graphql */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
 		8A28E05B22C2EAF200068E1A /* Kanit */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +272,7 @@
 		8A40E54B22C1CE6700456AD1 /* SenpaiBook */ = {
 			isa = PBXGroup;
 			children = (
+				8A1EC56D22CDB43F007F9E3F /* GraphQL */,
 				8A0BC60E22C258B900314DB7 /* FixedViews */,
 				8A40E58622C252E900456AD1 /* Scenes */,
 				8A40E57F22C1CECC00456AD1 /* Fonts */,
@@ -476,11 +493,13 @@
 				8A28E06B22C2EB4400068E1A /* Kanit-Bold.ttf in Resources */,
 				8A40E55622C1CE6900456AD1 /* Preview Assets.xcassets in Resources */,
 				8A28E06D22C2EB4400068E1A /* Kanit-Medium.ttf in Resources */,
+				8A1EC57622CDB457007F9E3F /* schema.json in Resources */,
 				8A40E55322C1CE6900456AD1 /* Assets.xcassets in Resources */,
 				8A28E06722C2EB4400068E1A /* Kanit-Black.ttf in Resources */,
 				8A28E06622C2EB4400068E1A /* Kanit-Thin.ttf in Resources */,
 				8A28E06A22C2EB4400068E1A /* Kanit-Light.ttf in Resources */,
 				8A28E06C22C2EB4400068E1A /* Kanit-Regular.ttf in Resources */,
+				8A1EC57A22CDB4B7007F9E3F /* FetchAnimeDetail.graphql in Resources */,
 				8A28E06522C2EB4400068E1A /* Kanit-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +547,7 @@
 				8A0BC60C22C2572900314DB7 /* AnimeDetailOverlayText.swift in Sources */,
 				8A0BC61222C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift in Sources */,
 				8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */,
+				8A1EC57822CDB49A007F9E3F /* API.swift in Sources */,
 				8A0BC61422C25D8F00314DB7 /* AnimeDetailDescriptionView.swift in Sources */,
 				8A40E57E22C1CEAD00456AD1 /* SenpaiColor.swift in Sources */,
 				8A40E58A22C2568500456AD1 /* AnimeDetailBannerView.swift in Sources */,
