@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct AnimeDetailDescriptionView: View {
+    
+    let descriptionViewModel: AnimeDetailViewModel.AnimeDetailDescriptionViewModel
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack(spacing: 10) {
@@ -25,7 +28,7 @@ struct AnimeDetailDescriptionView: View {
                     .aspectRatio(contentMode: ContentMode.fill)
                     .frame(width: 120, height: 180)
                     .clipped()
-                AnimeDetailDescription()
+                AnimeDetailDescription(descriptionViewModel: descriptionViewModel)
             }
                 .padding()
         }
@@ -33,6 +36,9 @@ struct AnimeDetailDescriptionView: View {
 }
 
 struct AnimeDetailDescription: View {
+    
+    let descriptionViewModel: AnimeDetailViewModel.AnimeDetailDescriptionViewModel
+    
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .center) {
@@ -41,7 +47,7 @@ struct AnimeDetailDescription: View {
                     .foregroundColor(SenpaiColor.highlightText)
                 VStack {
                     HStack(alignment: .firstTextBaseline) {
-                        Text("9.0")
+                        Text("\(String(format:"%.1f", descriptionViewModel.score))")
                             .font(SenpaiFont.bold.of(size: 45))
                         Text("/10.0")
                     }
@@ -51,7 +57,7 @@ struct AnimeDetailDescription: View {
                 }
                 
             }
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
+            Text(descriptionViewModel.description)
                 .lineLimit(nil)
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .leading)
                 .font(SenpaiFont.light.of(size: 14))

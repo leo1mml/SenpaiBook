@@ -16,11 +16,8 @@ struct ContentView: View {
                 SenpaiHeaderView()
                 Color.white
                     .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 1)
-                GeometryReader { geometry in
-                    ScrollView(showsVerticalIndicator: false) {
-                        AnimeDetailView()
-                            .frame(width: geometry.size.width)
-                    }
+                ScrollView(.vertical, showsIndicators: false) {
+                    AnimeDetailView()
                 }
             }
             

@@ -9,16 +9,19 @@
 import SwiftUI
 
 struct AnimeDetailOverlayText: View {
+    
+    let overlayTextViewModel: AnimeDetailViewModel.AnimeDetailOverlayTextViewModel
+    
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Demon Slayer".uppercased())
+            Text(overlayTextViewModel.title.uppercased())
                 .font(SenpaiFont.bold.of(size: 25))
                 .foregroundColor(SenpaiColor.highlightText)
             HStack(spacing: 50) {
-                Text("2019 -")
+                Text("\(overlayTextViewModel.startYear) -")
                 Text("23 min")
             }
-            Text("DRAMA, MISTERY, THRILLER")
+            Text(overlayTextViewModel.genres.joined(separator: ", "))
             }
                 .frame(minWidth: 0,
                        maxWidth: .infinity,

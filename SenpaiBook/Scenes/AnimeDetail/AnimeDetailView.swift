@@ -24,11 +24,15 @@ struct AnimeDetailView: View {
         }
     }
     
+    let overlayTextVM = AnimeDetailViewModel.AnimeDetailOverlayTextViewModel(title: "Demon Slayer", startYear: "2019", endYear: "", genres: ["drama, horror"])
+    let descriptionVM = AnimeDetailViewModel
+        .AnimeDetailDescriptionViewModel(imageUrl: "demon-slayer", description: "Anime muito foda seja onde for", score: 10, numberOfVotes: 55)
+    
     var body: some View {
         VStack(spacing: 0) {
-            AnimeDetailBannerView()
-            AnimeDetailEpisodeGuideView()
-            AnimeDetailDescriptionView()
+            AnimeDetailBannerView(overlayTextViewModel: overlayTextVM)
+            AnimeDetailEpisodeGuideView(numberOfEpisodes: 55)
+            AnimeDetailDescriptionView(descriptionViewModel: descriptionVM)
             AnimeDetailRelatedView()
         }
     }

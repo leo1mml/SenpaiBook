@@ -14,18 +14,15 @@ struct AnimeDetailRelatedView: View {
             Text("RELATED")
                 .font(SenpaiFont.bold.of(size: 18))
                 .padding()
-            
-            ScrollView(showsHorizontalIndicator: false) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     ForEach((1...10).reversed()) {
                         AnimeWidget(number: $0)
                     }
                 }
             }
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 350)
         }
             .foregroundColor(.white)
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
     }
 }
 
