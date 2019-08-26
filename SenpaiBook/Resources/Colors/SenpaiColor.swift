@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-enum SenpaiColorTypes: String {
+private enum SenpaiColorTypes: String {
     case hightlightText = "HighlightText"
     case main = "MainColor"
 }

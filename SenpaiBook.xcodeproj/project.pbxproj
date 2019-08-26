@@ -34,7 +34,6 @@
 		8A40E55322C1CE6900456AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E55222C1CE6900456AD1 /* Assets.xcassets */; };
 		8A40E55622C1CE6900456AD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E55522C1CE6900456AD1 /* Preview Assets.xcassets */; };
 		8A40E55922C1CE6900456AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A40E55722C1CE6900456AD1 /* LaunchScreen.storyboard */; };
-		8A40E56422C1CE6900456AD1 /* SenpaiBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E56322C1CE6900456AD1 /* SenpaiBookTests.swift */; };
 		8A40E57E22C1CEAD00456AD1 /* SenpaiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */; };
 		8A40E58122C1CEE300456AD1 /* SenpaiFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */; };
 		8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58722C2535500456AD1 /* AnimeDetailView.swift */; };
@@ -144,7 +143,6 @@
 		8A40E55822C1CE6900456AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A40E55A22C1CE6900456AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A40E55F22C1CE6900456AD1 /* SenpaiBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenpaiBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A40E56322C1CE6900456AD1 /* SenpaiBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiBookTests.swift; sourceTree = "<group>"; };
 		8A40E56522C1CE6900456AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiColor.swift; sourceTree = "<group>"; };
 		8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenpaiFont.swift; sourceTree = "<group>"; };
@@ -271,15 +269,12 @@
 		8A40E54B22C1CE6700456AD1 /* SenpaiBook */ = {
 			isa = PBXGroup;
 			children = (
+				8F3692C02314979E00EF041D /* AppBase */,
+				8F3692B82314976600EF041D /* Resources */,
 				8A1EC56D22CDB43F007F9E3F /* GraphQL */,
 				8A0BC60E22C258B900314DB7 /* FixedViews */,
 				8A40E58622C252E900456AD1 /* Scenes */,
-				8A40E57F22C1CECC00456AD1 /* Fonts */,
-				8A40E57C22C1CE9C00456AD1 /* Colors */,
-				8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */,
-				8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */,
 				8A40E55022C1CE6700456AD1 /* ContentView.swift */,
-				8A40E55222C1CE6900456AD1 /* Assets.xcassets */,
 				8A40E55722C1CE6900456AD1 /* LaunchScreen.storyboard */,
 				8A40E55A22C1CE6900456AD1 /* Info.plist */,
 				8A40E55422C1CE6900456AD1 /* Preview Content */,
@@ -299,7 +294,6 @@
 			isa = PBXGroup;
 			children = (
 				8A28E07322C30CBE00068E1A /* Colors */,
-				8A40E56322C1CE6900456AD1 /* SenpaiBookTests.swift */,
 				8A40E56522C1CE6900456AD1 /* Info.plist */,
 			);
 			path = SenpaiBookTests;
@@ -328,6 +322,25 @@
 				8A0BC60D22C2574500314DB7 /* AnimeDetail */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8F3692B82314976600EF041D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E55222C1CE6900456AD1 /* Assets.xcassets */,
+				8A40E57F22C1CECC00456AD1 /* Fonts */,
+				8A40E57C22C1CE9C00456AD1 /* Colors */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F3692C02314979E00EF041D /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */,
+				8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */,
+			);
+			path = AppBase;
 			sourceTree = "<group>";
 		};
 		8FE745D122CE5A73009BB9FD /* SubViews */ = {
@@ -579,7 +592,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A40E56422C1CE6900456AD1 /* SenpaiBookTests.swift in Sources */,
 				8A28E07522C30CD200068E1A /* SenpaiColorSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
