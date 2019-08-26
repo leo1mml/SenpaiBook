@@ -29,7 +29,7 @@ struct AnimeDetailOverlayText: View {
                        alignment: .topLeading)
                 .padding(.top, 80)
                 .padding([.leading, .bottom], 10)
-                .background(LinearGradient(gradient: Gradient(colors: [.clear, SenpaiColor.main]), startPoint: .top, endPoint: .bottom), cornerRadius: 0)
+                .background(LinearGradient(gradient: Gradient(colors: [.clear, SenpaiColor.main]), startPoint: .top, endPoint: .bottom))
                 .font(SenpaiFont.regular.of(size: 12))
     }
 }

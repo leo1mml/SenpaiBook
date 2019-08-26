@@ -16,7 +16,7 @@ struct AnimeDetailRelatedView: View {
                 .padding()
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
-                    ForEach((1...10).reversed()) {
+                    ForEach((1...10).reversed(), id: \.self) {
                         AnimeWidget(number: $0)
                     }
                 }

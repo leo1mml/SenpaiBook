@@ -21,10 +21,10 @@ struct SenpaiHeaderView: View {
                 VStack(alignment: .leading, spacing: -10) {
                     Text("SENPAI")
                         .font(SenpaiFont.extraBold.of(size: 14))
-                        .color(SenpaiColor.highlightText)
+                        .foregroundColor(SenpaiColor.highlightText)
                     Text("BOOK")
                         .font(SenpaiFont.black.of(size: 26))
-                        .color(.white)
+                        .foregroundColor(.white)
                     }
                 }
                     .padding()
