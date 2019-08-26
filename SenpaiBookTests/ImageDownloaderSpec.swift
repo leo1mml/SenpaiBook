@@ -8,11 +8,17 @@ import Nimble
 class ImageDownloaderSpec: QuickSpec {
     override func spec() {
         describe("ImageDownloader") {
-            let sut = ImageDownloader(url: "")
+            var sut: ImageDownloader?
             
             context("when it has no url") {
                 it("should return the default image") {
-                    expect(sut.storedImage).to(equal(Image("default")))
+                    sut = ImageDownloader(url: "")
+                    expect(sut?.storedImage).to(equal(Image("default")))
+                }
+            }
+            context("when it has a url") {
+                it("should call downloadImage") {
+                    
                 }
             }
         }

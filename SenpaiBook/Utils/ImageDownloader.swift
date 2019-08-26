@@ -11,7 +11,7 @@ class ImageDownloader {
         }
     }
     
-    func downloadImage(from url: URL) {
+    private func downloadImage(from url: URL) {
         
     }
 }
