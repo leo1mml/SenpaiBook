@@ -1,7 +1,7 @@
 import SwiftUI
 import Combine
 
-class ImageDownloader: ObservableObject {
+final class ImageDownloader: ObservableObject {
     
     @Published
     private(set) var storedImage: Image
