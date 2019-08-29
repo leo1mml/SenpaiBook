@@ -8,11 +8,11 @@ class ImageDownloader: ObservableObject {
     
     init(downloadData: ImageDownloadData, dataTask: DataTask, onError: @escaping (Error) -> Void) {
         storedImage = Image(downloadData.defaultImageName)
-        if let url = URL(string: downloadData.url) {
-            downloadImage(from: url, dataTask: dataTask, onError: onError)
-        } else {
+        guard let url = URL(string: downloadData.url) else {
             onError(URLError(.badURL))
+            return
         }
+        downloadImage(from: url, dataTask: dataTask, onError: onError)
     }
     
     private func downloadImage(from url: URL, dataTask: DataTask, onError: @escaping (Error) -> Void) {

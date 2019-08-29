@@ -311,10 +311,9 @@
 		8A40E56222C1CE6900456AD1 /* SenpaiBookTests */ = {
 			isa = PBXGroup;
 			children = (
-				8F3692D523158EFB00EF041D /* Mocks */,
+				8F33A8DB231861EE002C58E8 /* Utils */,
 				8A28E07322C30CBE00068E1A /* Colors */,
 				8A40E56522C1CE6900456AD1 /* Info.plist */,
-				8F3692C42314A02200EF041D /* ImageDownloaderSpec.swift */,
 			);
 			path = SenpaiBookTests;
 			sourceTree = "<group>";
@@ -333,6 +332,23 @@
 				8A0BC60D22C2574500314DB7 /* AnimeDetail */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8F33A8DB231861EE002C58E8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F3692D523158EFB00EF041D /* Mocks */,
+				8F33A8E3231861FF002C58E8 /* Helpers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8F33A8E3231861FF002C58E8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8F3692C42314A02200EF041D /* ImageDownloaderSpec.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		8F3692B82314976600EF041D /* Resources */ = {
