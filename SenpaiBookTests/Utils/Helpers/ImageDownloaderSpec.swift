@@ -63,7 +63,7 @@ class ImageDownloaderSpec: QuickSpec {
                         sut = ImageDownloader(downloadData: downloadData, dataTask: dataTask, onError: { error in
                             let error = error as? ImageError
                             expect(error).toNot(beNil())
-                            expect(error?.description).to(equal(ImageError.invalidDataFormat.description))
+                            expect(error).to(equal(ImageError.invalidDataFormat))
                         })
                     }
                 }
