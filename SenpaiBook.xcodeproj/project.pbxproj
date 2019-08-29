@@ -40,6 +40,12 @@
 		8A40E58A22C2568500456AD1 /* AnimeDetailBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */; };
 		8F3692C52314A02200EF041D /* ImageDownloaderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3692C42314A02200EF041D /* ImageDownloaderSpec.swift */; };
 		8F3692C82314A0B200EF041D /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3692C72314A0B200EF041D /* ImageDownloader.swift */; };
+		8F3692CB23158D7000EF041D /* DataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3692CA23158D7000EF041D /* DataTask.swift */; };
+		8F3692D723158F0900EF041D /* DataTaskMockImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3692D623158F0900EF041D /* DataTaskMockImageData.swift */; };
+		8F6B0EBB231832C60069B99B /* DataTaskMockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B0EBA231832C60069B99B /* DataTaskMockError.swift */; };
+		8F6B0EC8231844680069B99B /* ImageDownloadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B0EC7231844680069B99B /* ImageDownloadData.swift */; };
+		8F6B0ECC231853490069B99B /* DataTaskMockFailingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B0ECB231853490069B99B /* DataTaskMockFailingRequest.swift */; };
+		8F7A5CA72317003400D776E3 /* ImageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7A5CA62317003400D776E3 /* ImageError.swift */; };
 		8FE745DB22CE6E13009BB9FD /* AnimeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE745DA22CE6E13009BB9FD /* AnimeDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -152,6 +158,12 @@
 		8A40E58922C2568500456AD1 /* AnimeDetailBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailBannerView.swift; sourceTree = "<group>"; };
 		8F3692C42314A02200EF041D /* ImageDownloaderSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderSpec.swift; sourceTree = "<group>"; };
 		8F3692C72314A0B200EF041D /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		8F3692CA23158D7000EF041D /* DataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTask.swift; sourceTree = "<group>"; };
+		8F3692D623158F0900EF041D /* DataTaskMockImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskMockImageData.swift; sourceTree = "<group>"; };
+		8F6B0EBA231832C60069B99B /* DataTaskMockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskMockError.swift; sourceTree = "<group>"; };
+		8F6B0EC7231844680069B99B /* ImageDownloadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadData.swift; sourceTree = "<group>"; };
+		8F6B0ECB231853490069B99B /* DataTaskMockFailingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskMockFailingRequest.swift; sourceTree = "<group>"; };
+		8F7A5CA62317003400D776E3 /* ImageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageError.swift; sourceTree = "<group>"; };
 		8FE745DA22CE6E13009BB9FD /* AnimeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,12 +198,12 @@
 			path = AnimeDetail;
 			sourceTree = "<group>";
 		};
-		8A0BC60E22C258B900314DB7 /* FixedViews */ = {
+		8A0BC60E22C258B900314DB7 /* Fixed Views */ = {
 			isa = PBXGroup;
 			children = (
 				8A0BC60F22C258EA00314DB7 /* SenpaiHeaderView.swift */,
 			);
-			path = FixedViews;
+			path = "Fixed Views";
 			sourceTree = "<group>";
 		};
 		8A1EC53C22CC5AC3007F9E3F /* Products */ = {
@@ -273,16 +285,17 @@
 		8A40E54B22C1CE6700456AD1 /* SenpaiBook */ = {
 			isa = PBXGroup;
 			children = (
+				8F3692C02314979E00EF041D /* App Base */,
+				8F6B0EC92318458A0069B99B /* View */,
+				8F6B0ECF231859DD0069B99B /* Theme */,
+				8F6B0EC62318444C0069B99B /* Data Structures */,
+				8F7A5C9E2317002500D776E3 /* Error */,
 				8F3692C62314A0A700EF041D /* Utils */,
-				8F3692C02314979E00EF041D /* AppBase */,
 				8F3692B82314976600EF041D /* Resources */,
 				8A1EC56D22CDB43F007F9E3F /* GraphQL */,
-				8A0BC60E22C258B900314DB7 /* FixedViews */,
-				8A40E58622C252E900456AD1 /* Scenes */,
-				8A40E55022C1CE6700456AD1 /* ContentView.swift */,
+				8A40E55422C1CE6900456AD1 /* Preview Content */,
 				8A40E55722C1CE6900456AD1 /* LaunchScreen.storyboard */,
 				8A40E55A22C1CE6900456AD1 /* Info.plist */,
-				8A40E55422C1CE6900456AD1 /* Preview Content */,
 			);
 			path = SenpaiBook;
 			sourceTree = "<group>";
@@ -298,6 +311,7 @@
 		8A40E56222C1CE6900456AD1 /* SenpaiBookTests */ = {
 			isa = PBXGroup;
 			children = (
+				8F3692D523158EFB00EF041D /* Mocks */,
 				8A28E07322C30CBE00068E1A /* Colors */,
 				8A40E56522C1CE6900456AD1 /* Info.plist */,
 				8F3692C42314A02200EF041D /* ImageDownloaderSpec.swift */,
@@ -305,19 +319,10 @@
 			path = SenpaiBookTests;
 			sourceTree = "<group>";
 		};
-		8A40E57C22C1CE9C00456AD1 /* Colors */ = {
-			isa = PBXGroup;
-			children = (
-				8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */,
-			);
-			path = Colors;
-			sourceTree = "<group>";
-		};
 		8A40E57F22C1CECC00456AD1 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
 				8A28E05B22C2EAF200068E1A /* Kanit */,
-				8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -335,26 +340,95 @@
 			children = (
 				8A40E55222C1CE6900456AD1 /* Assets.xcassets */,
 				8A40E57F22C1CECC00456AD1 /* Fonts */,
-				8A40E57C22C1CE9C00456AD1 /* Colors */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		8F3692C02314979E00EF041D /* AppBase */ = {
+		8F3692C02314979E00EF041D /* App Base */ = {
 			isa = PBXGroup;
 			children = (
 				8A40E54C22C1CE6700456AD1 /* AppDelegate.swift */,
 				8A40E54E22C1CE6700456AD1 /* SceneDelegate.swift */,
 			);
-			path = AppBase;
+			path = "App Base";
 			sourceTree = "<group>";
 		};
 		8F3692C62314A0A700EF041D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				8F3692C72314A0B200EF041D /* ImageDownloader.swift */,
+				8F6B0ECE231859230069B99B /* Helpers */,
+				8F6B0ECD2318591D0069B99B /* Protocols */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		8F3692D523158EFB00EF041D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8F6B0ECA231853300069B99B /* DataTask */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		8F6B0EC62318444C0069B99B /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				8F6B0EC7231844680069B99B /* ImageDownloadData.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		8F6B0EC92318458A0069B99B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E55022C1CE6700456AD1 /* ContentView.swift */,
+				8A0BC60E22C258B900314DB7 /* Fixed Views */,
+				8A40E58622C252E900456AD1 /* Scenes */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F6B0ECA231853300069B99B /* DataTask */ = {
+			isa = PBXGroup;
+			children = (
+				8F3692D623158F0900EF041D /* DataTaskMockImageData.swift */,
+				8F6B0EBA231832C60069B99B /* DataTaskMockError.swift */,
+				8F6B0ECB231853490069B99B /* DataTaskMockFailingRequest.swift */,
+			);
+			path = DataTask;
+			sourceTree = "<group>";
+		};
+		8F6B0ECD2318591D0069B99B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8F3692CA23158D7000EF041D /* DataTask.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8F6B0ECE231859230069B99B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8F3692C72314A0B200EF041D /* ImageDownloader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8F6B0ECF231859DD0069B99B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8A40E58022C1CEE300456AD1 /* SenpaiFont.swift */,
+				8A40E57D22C1CEAD00456AD1 /* SenpaiColor.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		8F7A5C9E2317002500D776E3 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				8F7A5CA62317003400D776E3 /* ImageError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		8FE745D122CE5A73009BB9FD /* SubViews */ = {
@@ -586,13 +660,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE745DB22CE6E13009BB9FD /* AnimeDetailViewModel.swift in Sources */,
+				8F6B0EC8231844680069B99B /* ImageDownloadData.swift in Sources */,
 				8F3692C82314A0B200EF041D /* ImageDownloader.swift in Sources */,
 				8A40E54D22C1CE6700456AD1 /* AppDelegate.swift in Sources */,
 				8A40E54F22C1CE6700456AD1 /* SceneDelegate.swift in Sources */,
 				8A40E58822C2535500456AD1 /* AnimeDetailView.swift in Sources */,
 				8A0BC61022C258EA00314DB7 /* SenpaiHeaderView.swift in Sources */,
+				8F3692CB23158D7000EF041D /* DataTask.swift in Sources */,
 				8A28E06F22C2F62D00068E1A /* AnimeDetailRelatedView.swift in Sources */,
 				8A0BC60C22C2572900314DB7 /* AnimeDetailOverlayText.swift in Sources */,
+				8F7A5CA72317003400D776E3 /* ImageError.swift in Sources */,
 				8A0BC61222C25A0B00314DB7 /* AnimeDetailEpisodeGuideView.swift in Sources */,
 				8A40E55122C1CE6700456AD1 /* ContentView.swift in Sources */,
 				8A1EC57822CDB49A007F9E3F /* API.swift in Sources */,
@@ -609,6 +686,9 @@
 			files = (
 				8A28E07522C30CD200068E1A /* SenpaiColorSpec.swift in Sources */,
 				8F3692C52314A02200EF041D /* ImageDownloaderSpec.swift in Sources */,
+				8F3692D723158F0900EF041D /* DataTaskMockImageData.swift in Sources */,
+				8F6B0EBB231832C60069B99B /* DataTaskMockError.swift in Sources */,
+				8F6B0ECC231853490069B99B /* DataTaskMockFailingRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
