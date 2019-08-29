@@ -12,7 +12,7 @@ class ImageDownloaderSpec: QuickSpec {
             let downloadData = ImageDownloadData(url: "")
             let defaultImageName: String = "default"
 
-            describe("init:url:defaultImageName") {
+            describe("init:downloadData:dataTask:onError") {
                 beforeEach {
                     let dataTask = DataTaskMockImageData()
                     sut = ImageDownloader(downloadData: downloadData, dataTask: dataTask) { error in }
