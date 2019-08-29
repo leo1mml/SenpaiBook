@@ -5,10 +5,7 @@
 //  Created by leonel.menezes.lima on 29/08/19.
 //  Copyright © 2019 Leonel Menezes. All rights reserved.
 //
-
 import Foundation
-import Quick
-import Nimble
 @testable
 import SenpaiBook
 

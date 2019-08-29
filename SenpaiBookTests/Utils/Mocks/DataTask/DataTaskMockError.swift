@@ -6,8 +6,6 @@
 //  Copyright © 2019 Leonel Menezes. All rights reserved.
 //
 import Foundation
-import Quick
-import Nimble
 @testable
 import SenpaiBook
 
