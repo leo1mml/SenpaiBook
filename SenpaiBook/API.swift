@@ -1,10 +1,59 @@
+// @generated
 //  This file was automatically generated and should not be edited.
 
 import Apollo
+import Foundation
 
 public final class FetchAnimeByIdQuery: GraphQLQuery {
-  public let operationDefinition =
-    "query FetchAnimeById($id: Int) {\n  Media(id: $id) {\n    __typename\n    title {\n      __typename\n      english\n    }\n    coverImage {\n      __typename\n      extraLarge\n    }\n    bannerImage\n    genres\n    startDate {\n      __typename\n      year\n    }\n    endDate {\n      __typename\n      year\n    }\n    episodes\n    duration\n    relations {\n      __typename\n      edges {\n        __typename\n        id\n        node {\n          __typename\n          coverImage {\n            __typename\n            extraLarge\n          }\n          title {\n            __typename\n            english\n          }\n        }\n      }\n    }\n  }\n}"
+  /// The raw GraphQL definition of this operation.
+  public let operationDefinition: String =
+    """
+    query FetchAnimeById($id: Int) {
+      Media(id: $id) {
+        __typename
+        title {
+          __typename
+          english
+        }
+        coverImage {
+          __typename
+          extraLarge
+        }
+        bannerImage
+        genres
+        startDate {
+          __typename
+          year
+        }
+        endDate {
+          __typename
+          year
+        }
+        episodes
+        duration
+        relations {
+          __typename
+          edges {
+            __typename
+            id
+            node {
+              __typename
+              coverImage {
+                __typename
+                extraLarge
+              }
+              title {
+                __typename
+                english
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+
+  public let operationName: String = "FetchAnimeById"
 
   public var id: Int?
 
@@ -17,7 +66,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
   }
 
   public struct Data: GraphQLSelectionSet {
-    public static let possibleTypes = ["Query"]
+    public static let possibleTypes: [String] = ["Query"]
 
     public static let selections: [GraphQLSelection] = [
       GraphQLField("Media", arguments: ["id": GraphQLVariable("id")], type: .object(Medium.selections)),
@@ -44,7 +93,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
     }
 
     public struct Medium: GraphQLSelectionSet {
-      public static let possibleTypes = ["Media"]
+      public static let possibleTypes: [String] = ["Media"]
 
       public static let selections: [GraphQLSelection] = [
         GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -169,7 +218,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
       }
 
       public struct Title: GraphQLSelectionSet {
-        public static let possibleTypes = ["MediaTitle"]
+        public static let possibleTypes: [String] = ["MediaTitle"]
 
         public static let selections: [GraphQLSelection] = [
           GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -207,7 +256,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
       }
 
       public struct CoverImage: GraphQLSelectionSet {
-        public static let possibleTypes = ["MediaCoverImage"]
+        public static let possibleTypes: [String] = ["MediaCoverImage"]
 
         public static let selections: [GraphQLSelection] = [
           GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -245,7 +294,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
       }
 
       public struct StartDate: GraphQLSelectionSet {
-        public static let possibleTypes = ["FuzzyDate"]
+        public static let possibleTypes: [String] = ["FuzzyDate"]
 
         public static let selections: [GraphQLSelection] = [
           GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -283,7 +332,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
       }
 
       public struct EndDate: GraphQLSelectionSet {
-        public static let possibleTypes = ["FuzzyDate"]
+        public static let possibleTypes: [String] = ["FuzzyDate"]
 
         public static let selections: [GraphQLSelection] = [
           GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -321,7 +370,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
       }
 
       public struct Relation: GraphQLSelectionSet {
-        public static let possibleTypes = ["MediaConnection"]
+        public static let possibleTypes: [String] = ["MediaConnection"]
 
         public static let selections: [GraphQLSelection] = [
           GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -357,7 +406,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
         }
 
         public struct Edge: GraphQLSelectionSet {
-          public static let possibleTypes = ["MediaEdge"]
+          public static let possibleTypes: [String] = ["MediaEdge"]
 
           public static let selections: [GraphQLSelection] = [
             GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -404,7 +453,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
           }
 
           public struct Node: GraphQLSelectionSet {
-            public static let possibleTypes = ["Media"]
+            public static let possibleTypes: [String] = ["Media"]
 
             public static let selections: [GraphQLSelection] = [
               GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -452,7 +501,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
             }
 
             public struct CoverImage: GraphQLSelectionSet {
-              public static let possibleTypes = ["MediaCoverImage"]
+              public static let possibleTypes: [String] = ["MediaCoverImage"]
 
               public static let selections: [GraphQLSelection] = [
                 GraphQLField("__typename", type: .nonNull(.scalar(String.self))),
@@ -490,7 +539,7 @@ public final class FetchAnimeByIdQuery: GraphQLQuery {
             }
 
             public struct Title: GraphQLSelectionSet {
-              public static let possibleTypes = ["MediaTitle"]
+              public static let possibleTypes: [String] = ["MediaTitle"]
 
               public static let selections: [GraphQLSelection] = [
                 GraphQLField("__typename", type: .nonNull(.scalar(String.self))),

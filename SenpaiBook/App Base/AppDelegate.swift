@@ -9,8 +9,6 @@
 import UIKit
 import Apollo
 
-import Apollo
-
 let graphQLEndpoint = "https://graphql.anilist.co"
 let apollo = ApolloClient(url: URL(string: graphQLEndpoint)!)
 

@@ -9,16 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         ZStack {
             SenpaiColor.main.edgesIgnoringSafeArea(.all)
             VStack(spacing: 0) {
                 SenpaiHeaderView()
                 Color.white
-                    .frame(minWidth: 0, maxWidth: .infinity, maxHeight: 1)
+                    .frame(maxWidth: .infinity, maxHeight: 1)
                 ScrollView(.vertical, showsIndicators: false) {
                     AnimeDetailView()
                 }
+            }
+        }.onAppear {
+            apollo.fetch(query: FetchAnimeByIdQuery(id: 1)) { result in
+                print(result)
             }
         }
     }
